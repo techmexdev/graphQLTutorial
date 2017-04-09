@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": "41",
+      "firstName": "Nick",
+      "age": 40,
+      "companyId": "2"
+    },
+    {
+      "firstName": "Samantha",
+      "age": 25,
+      "companyId": "1",
+      "id": "S1TKHzuwl"
+    },
+    {
+      "firstName": "Ari",
+      "age": 27,
+      "id": "Hy-L3Qdax",
+      "companyId": "2"
+    },
+    {
+      "firstName": "Ari",
+      "age": 20,
+      "id": "r1D82X_ag"
+    },
+    {
+      "firstName": "Alex",
+      "age": 40,
+      "id": "B1g0JEO6x"
+    },
+    {
+      "firstName": "Alex",
+      "age": 40,
+      "id": "Hk0RyVdTl"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "description": "iphone"
+    },
+    {
+      "id": "2",
+      "name": "Google",
+      "description": "search"
+    }
+  ]
+}
