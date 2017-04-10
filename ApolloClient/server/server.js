@@ -7,16 +7,10 @@ const schema = require('./schema/schema');
 
 const app = express();
 
-// Replace with your mongoLab URI
-const MONGO_URI = '';
-if (!MONGO_URI) {
-  throw new Error('You must provide a MongoLab URI');
-}
-
 mongoose.Promise = global.Promise;
-mongoose.connect(MONGO_URI);
+mongoose.connect('mongodb://localhost/apolloclient');
 mongoose.connection
-    .once('open', () => console.log('Connected to MongoLab instance.'))
+    .once('open', () => console.log('Connected to mongodb.'))
     .on('error', error => console.log('Error connecting to MongoLab:', error));
 
 app.use(bodyParser.json());
